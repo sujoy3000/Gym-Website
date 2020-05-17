@@ -1,0 +1,123 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    height: 1000px;
+    margin: 0px;
+    padding: 0px;
+    background: url('./img/Gym.jpg');
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 60px;
+    filter: invert(100%);
+}
+
+.left h2 {
+    /* font-size: 19px; */
+    text-align: center;
+    color: #FF9800;
+}
+
+.left h2 a{
+    text-decoration: none;
+    color:yellowgreen
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    /* border: 2px solid yellow; */
+}
+
+.right {
+    position: absolute;
+    /*There will be no gap*/
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid green; */
+}
+
+.right button a{
+    text-decoration: none;
+    color:black
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    /* To take the whole content in one line */
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: blanchedalmond;
+    text-decoration: none;
+    /* To remove the under lines */
+    padding: 30px 23px;
+}
+
+.navbar li a:hover,.navbar li a.active {
+    text-decoration: underline;
+    /* To remove the under lines */
+    color: #2fc7b9;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: #7d7373;
+    padding: 4px 14px;
+    border: 2px solid #d0c45f; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn a{
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #b7aeae;
+}
+
+.container {
+    /* border: 2px solid #fcfbfd; */
+    margin: 82px 35px;
+    padding: 55px 110px; 
+    width: 33%;
+    border-radius: 10px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    display: block;
+    padding: 6px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 11px auto;
+    font-size: 15px;
+}
+
+.container button {
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+
+.container h2 {
+    text-align: center;
+    color:#e6b110;
+}
